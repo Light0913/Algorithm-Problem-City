@@ -1,0 +1,94 @@
+type: default
+subtasks:
+- score: 10
+  if: []
+  id: 1
+  type: min
+  cases:
+  - input: city1.in
+    output: city1.out
+  - input: city2.in
+    output: city2.out
+  - input: city3.in
+    output: city3.out
+- score: 15
+  if: []
+  id: 2
+  type: min
+  cases:
+  - input: city4.in
+    output: city4.out
+  - input: city5.in
+    output: city5.out
+  - input: city6.in
+    output: city6.out
+  - input: city7.in
+    output: city7.out
+- score: 15
+  if: []
+  id: 3
+  type: min
+  cases:
+  - input: city8.in
+    output: city8.out
+  - input: city9.in
+    output: city9.out
+  - input: city10.in
+    output: city10.out
+  - input: city11.in
+    output: city11.out
+- score: 15
+  if: []
+  id: 4
+  type: min
+  cases:
+  - input: city12.in
+    output: city12.out
+  - input: city13.in
+    output: city13.out
+  - input: city14.in
+    output: city14.out
+  - input: city15.in
+    output: city15.out
+- score: 15
+  if: []
+  id: 5
+  type: min
+  cases:
+  - input: city16.in
+    output: city16.out
+  - input: city17.in
+    output: city17.out
+  - input: city18.in
+    output: city18.out
+  - input: city19.in
+    output: city19.out
+- score: 30
+  if: []
+  id: 6
+  type: min
+  cases:
+  - input: city20.in
+    output: city20.out
+  - input: city21.in
+    output: city21.out
+  - input: city22.in
+    output: city22.out
+  - input: city23.in
+    output: city23.out
+  - input: city24.in
+    output: city24.out
+  - input: city25.in
+    output: city25.out
+  - input: city26.in
+    output: city26.out
+  - input: city27.in
+    output: city27.out
+  - input: city28.in
+    output: city28.out
+  - input: city29.in
+    output: city29.out
+  - input: city30.in
+    output: city30.out
+  - input: city31.in
+    output: city31.out
