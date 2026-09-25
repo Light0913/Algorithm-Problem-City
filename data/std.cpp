@@ -183,12 +183,9 @@ bool check(int u, int v, int direct, int x, const int* sw) {
 
     if (!ca || !cb) return 0;
 
-    // 保证 ca <= cb，且交换时只访问有效区间
     if (ca > cb) {
-        // 前 cb 个元素交换（都在有效范围内）
         for (int i = 0; i < cb; i++)
             swap(ga[i], gb[i]);
-        // 把 ga 的尾部搬到 gb 尾部（读 ga[i] 有效，写 gb[i] 在容量内）
         for (int i = cb; i < ca; i++)
             gb[i] = ga[i];
         swap(ca, cb);
